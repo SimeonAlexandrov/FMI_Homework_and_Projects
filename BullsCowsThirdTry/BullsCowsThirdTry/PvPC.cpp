@@ -7,15 +7,18 @@ PvPC::PvPC()
 	m_guessCount = 0;
 }
 
-PvPC::~PvPC()
+PvPC::PvPC(Human one, PC two)
 {
-	delete yugi;
-	delete computer;
+	yugi = one;
+	computer = two;
 }
+
+
+
 
 void PvPC::Play()
 {
-	computer->SelectRandom();
+	computer.SelectRandom();
 	cout << "Computer has chosen a secret number" << endl;
 	int guessCount = 0;
 	int userGuess;
@@ -24,26 +27,26 @@ void PvPC::Play()
 		guessCount++;
 		cout << "Make a guess: ";
 		cin >> userGuess;
-		if (HasWon(yugi->MakeGuess(userGuess)))
+		if (HasWon(yugi.MakeGuess(userGuess)))
 		{
-			cout << "Congratulations, you have guessed computers number";
+			cout << "Congratulations, you have guessed computers number right";
 			ExportGuessCount(guessCount);
 			break;
 		}
 		else
 		{
 			cout << endl << "Computer lists bulls and cows: " << endl;
-			computer->Respond(userGuess);
+			computer.Respond(userGuess);
 		}
 		
 
-	} while (!HasWon(yugi->MakeGuess(userGuess)));
+	} while (!HasWon(yugi.MakeGuess(userGuess)));
 
 }
 
 bool PvPC::HasWon(int number)
 {
-	if (computer->GetNumber() == yugi->MakeGuess(number))
+	if (computer.GetNumber() == yugi.MakeGuess(number))
 	{
 		return true;
 	}
@@ -68,6 +71,6 @@ void PvPC::SaveScore()
 	}
 	else
 	{
-		file << endl << "Game mode: PvPC " << "\tSecret number is: " << yugi->GetNumber() << "\tGuesses needed: " << m_guessCount;
+		file << endl << "Game mode: PvPC " << "\tSecret number is: " << yugi.GetNumber() << "\tGuesses needed: " << m_guessCount;
 	}
 }

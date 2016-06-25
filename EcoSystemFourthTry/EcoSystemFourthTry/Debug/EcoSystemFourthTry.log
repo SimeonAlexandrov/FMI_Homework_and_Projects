@@ -1,0 +1,11 @@
+﻿  Main.cpp
+c:\users\21682\documents\visual studio 2015\projects\ecosystemfourthtry\ecosystemfourthtry\main.cpp(151): warning C4018: '<': signed/unsigned mismatch
+c:\users\21682\documents\visual studio 2015\projects\ecosystemfourthtry\ecosystemfourthtry\main.cpp(156): warning C4018: '<': signed/unsigned mismatch
+c:\users\21682\documents\visual studio 2015\projects\ecosystemfourthtry\ecosystemfourthtry\main.cpp(161): warning C4018: '<': signed/unsigned mismatch
+c:\users\21682\documents\visual studio 2015\projects\ecosystemfourthtry\ecosystemfourthtry\main.cpp(166): warning C4018: '<': signed/unsigned mismatch
+c:\users\21682\documents\visual studio 2015\projects\ecosystemfourthtry\ecosystemfourthtry\main.cpp(173): warning C4018: '<': signed/unsigned mismatch
+c:\users\21682\documents\visual studio 2015\projects\ecosystemfourthtry\ecosystemfourthtry\main.cpp(181): warning C4018: '<': signed/unsigned mismatch
+c:\users\21682\documents\visual studio 2015\projects\ecosystemfourthtry\ecosystemfourthtry\main.cpp(186): warning C4018: '<': signed/unsigned mismatch
+c:\users\21682\documents\visual studio 2015\projects\ecosystemfourthtry\ecosystemfourthtry\main.cpp(191): warning C4018: '<': signed/unsigned mismatch
+  EcoSystemFourthTry.vcxproj -> c:\users\21682\documents\visual studio 2015\Projects\EcoSystemFourthTry\Debug\EcoSystemFourthTry.exe
+  EcoSystemFourthTry.vcxproj -> c:\users\21682\documents\visual studio 2015\Projects\EcoSystemFourthTry\Debug\EcoSystemFourthTry.pdb (Partial PDB)

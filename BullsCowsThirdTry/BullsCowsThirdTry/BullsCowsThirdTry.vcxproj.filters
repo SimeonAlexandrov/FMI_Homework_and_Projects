@@ -36,6 +36,9 @@
     <ClCompile Include="PvPC.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PCvP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -54,6 +57,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PvPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PCvP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Presenter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

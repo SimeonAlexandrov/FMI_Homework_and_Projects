@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="PCvP.cpp" />
     <ClCompile Include="ProtoGame.cpp" />
     <ClCompile Include="PvP.cpp" />
     <ClCompile Include="Human.cpp" />
@@ -155,6 +156,8 @@
     <ClCompile Include="PvPC.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="PCvP.h" />
+    <ClInclude Include="Presenter.h" />
     <ClInclude Include="PvP.h" />
     <ClInclude Include="Human.h" />
     <ClInclude Include="PC.h" />

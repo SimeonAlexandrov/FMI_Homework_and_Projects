@@ -1,2 +1,13 @@
-﻿  Main.cpp
-  BullsCowsThirdTry.vcxproj -> C:\Users\21682\Documents\Visual Studio 2015\Projects\BullsCowsThirdTry\Debug\BullsCowsThirdTry.exe
+﻿  PvPC.cpp
+  PvP.cpp
+  PCvP.cpp
+  Main.cpp
+  Generating Code...
+  Compiling...
+  Player.cpp
+  PC.cpp
+  Human.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  ProtoGame.cpp
+  BullsCowsThirdTry.vcxproj -> C:\Users\21682\Documents\GitHub\FMI_Homework_and_Projects\BullsCowsThirdTry\Debug\BullsCowsThirdTry.exe

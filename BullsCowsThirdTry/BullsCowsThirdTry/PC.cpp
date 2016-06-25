@@ -20,10 +20,16 @@ int PC::SelectRandom()
 
 }
 
+int PC::MakeGuess()
+{
+	// some complex algoriths should be here
+	return SelectRandom();
+}
+
 
 
 void PC::Respond(int number)
 {
-	cout <<  "buls: "<< CheckForBulls(number) << endl << "cows: " << CheckForCows(number) << endl;
+	cout <<  "bulls: "<< CheckForBulls(number) << endl << "cows: " << CheckForCows(number) << endl;
 
 }

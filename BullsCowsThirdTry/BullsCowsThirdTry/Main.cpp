@@ -2,13 +2,46 @@
 #include "PvP.h"
 #include "PvPC.h"
 #include "Human.h"
+#include "PC.h"
+#include "PCvP.h"
+#include "Presenter.h"
 using namespace std;
+
+void Menu()
+{
+	cout << "Please select a game mode" << endl;
+	int response;
+	cout << "\t Press 1 for PvP mode" << endl;
+	cout << "\t Press 2 for PvPC mode" << endl;
+	cout << "\t Press 3 for PCvP mode" << endl;
+	cin >> response;
+	if (response == 1)
+	{
+		PvP newGame; 
+		newGame.Play();
+	}
+	else if (response == 2)
+	{
+
+			PvPC newGame;
+			newGame.Play();
+		
+	}
+	else if (response == 3)
+	{
+		PCvP newGame;
+		newGame.Play();
+	}
+	else
+	{
+		cout << "wrong input";
+	}
+	
+}
 
 int main()
 {
-	PvPC newGame;
-
-	newGame.Play();
+	Menu();
 
 	return 0;
 }

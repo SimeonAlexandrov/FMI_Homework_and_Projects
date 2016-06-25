@@ -1,4 +1,4 @@
-#pragma once
+ #pragma once
 #include "ProtoGame.h"
 #include "Human.h"
 #include "PC.h"
@@ -7,13 +7,13 @@ class PvPC : public ProtoGame
 {
 public:
 	PvPC();
-	~PvPC();
+	PvPC(Human, PC);
 	void Play();
 	bool HasWon(int);
 	void SaveScore();
 private:
-	Player *yugi = new Human;
-	Player *computer = new PC;
+	Human yugi;
+	PC computer;
 	int m_guessCount;
 	void ExportGuessCount(int);
 	

@@ -21,6 +21,7 @@ void Human::Respond(int number)
 	if (respondBulls != CheckForBulls(number) || respondCows != CheckForCows(number))
 	{
 		cout << "wrong input" << endl;
+		// could be made with recursion 
 	}
 }
 

@@ -8,5 +8,6 @@ class PC : public Player
 public:
 	PC();
 	int SelectRandom(); 
+	int MakeGuess();
 	void Respond(int);
 };
