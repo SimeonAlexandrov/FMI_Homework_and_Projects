@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\21682\documents\visual studio 2015\projects\sda_homework_2\sda_homework_2\main.cpp(26): warning C4018: '<': signed/unsigned mismatch
+c:\users\21682\documents\visual studio 2015\projects\sda_homework_2\sda_homework_2\main.cpp(105): warning C4018: '<': signed/unsigned mismatch
+c:\users\21682\documents\visual studio 2015\projects\sda_homework_2\sda_homework_2\main.cpp(131): warning C4018: '<': signed/unsigned mismatch
+c:\users\21682\documents\visual studio 2015\projects\sda_homework_2\sda_homework_2\main.cpp(142): warning C4018: '<': signed/unsigned mismatch
+c:\users\21682\documents\visual studio 2015\projects\sda_homework_2\sda_homework_2\main.cpp(162): warning C4018: '<': signed/unsigned mismatch
+c:\users\21682\documents\visual studio 2015\projects\sda_homework_2\sda_homework_2\main.cpp(221): warning C4018: '<': signed/unsigned mismatch
+  SDA_Homework_2.vcxproj -> C:\Users\21682\Documents\Visual Studio 2015\Projects\SDA_Homework_2\Debug\SDA_Homework_2.exe
